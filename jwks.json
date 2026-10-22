@@ -1,0 +1,16 @@
+{
+  "keys": [
+    {
+      "kty": "EC",
+      "kid": "bio-2026-10-22",
+      "key_ops": [
+        "verify",
+        "encrypt",
+        "wrapKey"
+      ],
+      "crv": "P-256",
+      "x": "MpMvXwe0SfjiFF_af1LFzrMvBXA4agdEa7ShJpZIy8g",
+      "y": "3NvrABQSid0iV24fFbgnPbq8S6R6qjPHJjVG2Y4VGqY"
+    }
+  ]
+}
