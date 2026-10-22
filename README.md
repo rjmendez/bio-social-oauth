@@ -7,6 +7,6 @@ atproto OAuth identifies a client by the URL of its metadata, so these files mus
 - `<bot>/jwks.json`: that client's PUBLIC signing key (the private key never leaves the machine that runs the bot)
 - `callback.html`: the shared sign-in redirect page; it shows the address to paste back into the terminal and sends nothing anywhere
 
-Bots: `poster/` (create posts + upload images).
+Bots: `poster/` (create posts + upload images), `cleanup/` (delete posts only: removing old automated posts).
 
 The bots use the `bsky-oauth` library (private), a thin wrapper around Bluesky's official `@atproto/oauth-client-node`.
